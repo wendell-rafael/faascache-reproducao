@@ -1,0 +1,10 @@
+{"policy": "TTL", "mem": 10000, "elapsed_s": 996, "mine": {"misses": 252077, "hits": 1005992, "dropped": 90091}, "artifact": {"misses": 252077, "hits": 1005994, "dropped": 90091}}
+{"policy": "GD", "mem": 10000, "elapsed_s": 1059, "mine": {"misses": 298344, "hits": 950475, "dropped": 99291}, "artifact": {"misses": 160532, "hits": 1127801, "dropped": 59829}}
+{"policy": "TTL", "mem": 15000, "elapsed_s": 1243, "mine": {"misses": 22954, "hits": 1324967, "dropped": 154}, "artifact": {"misses": 22954, "hits": 1325054, "dropped": 154}}
+{"policy": "GD", "mem": 15000, "elapsed_s": 1431, "mine": {"misses": 58399, "hits": 1289208, "dropped": 488}, "artifact": {"misses": 12170, "hits": 1335838, "dropped": 154}}
+{"policy": "GD", "mem": 20000, "elapsed_s": 1470, "mine": {"misses": 39188, "hits": 1308892, "dropped": 0}, "artifact": {"misses": 8591, "hits": 1339571, "dropped": 0}}
+{"policy": "TTL", "mem": 20000, "elapsed_s": 1482, "mine": {"misses": 13472, "hits": 1334670, "dropped": 0}, "artifact": {"misses": 13472, "hits": 1334690, "dropped": 0}}
+{"policy": "TTL", "mem": 40000, "elapsed_s": 2187, "mine": {"misses": 14020, "hits": 1334101, "dropped": 0}, "artifact": {"misses": 14020, "hits": 1334142, "dropped": 0}}
+{"policy": "TTL", "mem": 30000, "elapsed_s": 2196, "mine": {"misses": 13761, "hits": 1334360, "dropped": 0}, "artifact": {"misses": 13761, "hits": 1334401, "dropped": 0}}
+{"policy": "GD", "mem": 30000, "elapsed_s": 2252, "mine": {"misses": 31259, "hits": 1316821, "dropped": 0}, "artifact": {"misses": 5241, "hits": 1342921, "dropped": 0}}
+{"policy": "GD", "mem": 40000, "elapsed_s": 2495, "mine": {"misses": 14511, "hits": 1333614, "dropped": 0}, "artifact": {"misses": 2192, "hits": 1345970, "dropped": 0}}

@@ -1,0 +1,17 @@
+# Artefato de terceiros (baixar do Zenodo; ver README)
+experimentos/artefato/
+# Logs temporários das simulações
+experimentos/out*/
+# Resultados de harness com erro (sem heapify); não usados no artigo
+experimentos/resultados_hist_sem_heapify/
+# Documentos com dados pessoais ou histórico de rascunho
+detalhamento_projeto.md
+artigo/rascunho_artigo.md
+# Arquivos de compilação LaTeX
+artigo/*.aux
+artigo/*.log
+artigo/*.bbl
+artigo/*.blg
+artigo/*.out
+.claude/
+__pycache__/
