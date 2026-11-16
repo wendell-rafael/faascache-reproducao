@@ -48,7 +48,6 @@ experimentos/
   analise/                             # CSV, resumo e figuras
   diagnostico/                         # logs das rodadas de diagnóstico
   Dockerfile                           # Python 3.8 com numpy, pandas, scipy e matplotlib
-detalhamento_formato_turma.md          # questões de pesquisa e desenho dos experimentos
 ```
 
 ## Como reproduzir
