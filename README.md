@@ -32,6 +32,10 @@ Todas as simulações usam o simulador e o trace de 392 funções (1.348.162 inv
 
 ![GD_C contra GD publicado, TTL, LRU e GD do artefato](experimentos/analise/fig_gd_c.png)
 
+**Figura 5a do artigo.** As curvas foram extraídas do PDF vetorial com [`digitalizar_fig5a.py`](experimentos/digitalizar_fig5a.py). A curva de TTL do artigo coincide com esta execução (diferença máxima de 0,0004 ponto percentual), e a de GD coincide com os resultados pré-computados do artefato (0,002). A figura foi, portanto, gerada com os resultados do artefato, e nela a redução sobre TTL fica entre 2,1 e 2,6 vezes em 15, 16, 20 e 22 GB.
+
+**Mecanismo de GD_C.** Medido a 20 e 30 GB com [`copias.py`](experimentos/copias.py): GD_C mantém mais funções distintas em memória (142 contra 174 e 149 contra 175) e faz menos remoções; a memória em cópias excedentes cai de 59% para 52% e de 72% para 68%.
+
 Esses números vêm de um único trace e de um simulador determinístico. As contagens de vitórias descrevem esta grade de 18 tamanhos e não valem como teste estatístico.
 
 ## Estrutura
@@ -42,6 +46,8 @@ experimentos/
   hist_variantes.py, rodar_hist.sh     # hipóteses para a divergência de HIST
   piloto_politicas.py, rodar_gd_c.sh   # piloto e avaliação de GD_C
   smoke_test.py, smoke_test.sh         # teste rápido (TTL e LRU a 1 GB)
+  copias.py, rodar_copias.sh           # funções e cópias em memória com GD e GD_C
+  digitalizar_fig5a.py                 # extrai a figura 5a do PDF do artigo
   analisar.py, analisar_gd_c.py        # tabelas e figuras
   avaliacao_gd_c.md                    # critérios da avaliação de GD_C
   resultados*/                         # um JSON por simulação (política, memória)

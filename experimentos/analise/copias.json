@@ -1,0 +1,58 @@
+[
+ {
+  "variant": "GD",
+  "mem": 20000,
+  "elapsed_s": 928,
+  "samples": 26964,
+  "containers_mean": 392.8240246254265,
+  "functions_mean": 141.95727636849134,
+  "copies_per_function": 2.76719893952979,
+  "excess_mem_mean_mb": 11863.687398012164,
+  "excess_mem_pct": 59.31843699006082,
+  "evictions": 38799,
+  "misses": 39188,
+  "control_ok": true
+ },
+ {
+  "variant": "GD_C",
+  "mem": 20000,
+  "elapsed_s": 1210,
+  "samples": 26964,
+  "containers_mean": 499.8391559115858,
+  "functions_mean": 173.88165702418038,
+  "copies_per_function": 2.874593930526421,
+  "excess_mem_mean_mb": 10482.398345942738,
+  "excess_mem_pct": 52.41199172971369,
+  "evictions": 21634,
+  "misses": 22126,
+  "control_ok": true
+ },
+ {
+  "variant": "GD",
+  "mem": 30000,
+  "elapsed_s": 1445,
+  "samples": 26964,
+  "containers_mean": 629.7825619344311,
+  "functions_mean": 149.48442367601245,
+  "copies_per_function": 4.213031340973697,
+  "excess_mem_mean_mb": 21462.660992434357,
+  "excess_mem_pct": 71.54220330811452,
+  "evictions": 30652,
+  "misses": 31259,
+  "control_ok": true
+ },
+ {
+  "variant": "GD_C",
+  "mem": 30000,
+  "elapsed_s": 1275,
+  "samples": 26964,
+  "containers_mean": 643.8148642634624,
+  "functions_mean": 175.0539979231568,
+  "copies_per_function": 3.677807258912629,
+  "excess_mem_mean_mb": 20444.404242693963,
+  "excess_mem_pct": 68.14801414231322,
+  "evictions": 20633,
+  "misses": 21271,
+  "control_ok": true
+ }
+]
