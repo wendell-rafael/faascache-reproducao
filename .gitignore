@@ -15,3 +15,7 @@ artigo/*.blg
 artigo/*.out
 .claude/
 __pycache__/
+artigo/*.toc
+
+# Artigo (entregue à parte)
+artigo/
